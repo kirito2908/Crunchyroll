@@ -3,13 +3,13 @@
     display: flex;
     justify-content: center;
     height: 30vh;
-    background: linear-gradient(rgb(0, 0, 63) 80%, rgb(173, 166, 166));
-    box-shadow: 0 0 20px 20px rgb(0, 0, 63);
+    background: linear-gradient(rgb(0, 0, 45) 80%, rgb(173, 166, 166));
+    box-shadow: 0 0 30px 30px rgb(0, 0, 45);
     /* rgba(234,113,46,1) */
 }
 
 .text{
-    height: 70px;
+    height: 75px;
     width: 1100px;
     background-color: black;
     font-size: 11px;
@@ -19,6 +19,7 @@
     justify-content: center;
     border-radius: 10px;
     color: beige;
+    top: 10%;
 }
 
 .text i{
