@@ -1,5 +1,6 @@
 import React from 'react'
 import Body_Part from './Body_Part.css'
+import SecondBody from './Second_Body_Part/SecondBody'
 
 export const BodyPart = () => {
   return (
@@ -16,6 +17,7 @@ export const BodyPart = () => {
                     Watch</button>
             </div>
         </div>
+        <SecondBody/>
     </>
   )
 }

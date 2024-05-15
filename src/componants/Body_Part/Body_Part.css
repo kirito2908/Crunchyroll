@@ -5,6 +5,8 @@
 
 .main_body{
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .main_body video{
@@ -22,9 +24,9 @@
     justify-content: space-around;
     height: 400px;
     width: 650px;
-    padding: 40px;
     z-index: 1;
-    top: 15%;
+    top: 18%;
+    right: 18%;
 }
 
 .side_part img {
