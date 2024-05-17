@@ -1,25 +1,95 @@
 .second_main{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    height: 30vh;
-    background: linear-gradient(rgb(0, 0, 45) 80%, rgb(173, 166, 166));
-    box-shadow: 0 0 30px 30px rgb(0, 0, 45);
-    /* rgba(234,113,46,1) */
+    position: absolute;
+    width: 100%;
+    color: rgba(234,113,46,1);
+    left: 0%;
+    bottom: -40%;
+    z-index: 1;
 }
 
-.text{
-    height: 75px;
-    width: 1100px;
-    background-color: black;
-    font-size: 11px;
+.coverup{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: fill;
+    /* top: 50%; */
+    background: linear-gradient(rgba(14, 15, 31, 0) 0%, rgba(14, 15, 31, 0) 100%);
+    box-shadow: 10px 10px rgba(11, 10, 32, 0.8);
+    z-index: 5;
+}
+
+.gradient_top{
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    top: -3.5rem;
+    background: linear-gradient(rgba(14, 15, 31, 0) 0%, rgb(12, 10, 32) 43.23%, rgba(14, 15, 31, 0) 100%);
+    z-index: 3;
+}
+
+.coverup img{
     position: relative;
+    width: 100%;
+    height: 40vh;
+    z-index: 5;
+    object-fit: cover;
+    top: 0%;
+    /* margin-top: 10px; */
+}
+
+.coverup video{
+    position: absolute;
+    width: 90%;
+    height: 30vh;
+    right: 0%;
+    bottom: -5%;
+    z-index: 2;
+    mix-blend-mode: lighten;
+}
+
+.coverup #dustIMG{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 7%;
+    z-index: 4;
+}
+
+.coverup #largeStar{
+    position: absolute;
+    width: 20%;
+    height: 20vh;
+    left: 45% ;
+    top: 35%;
+    object-fit: contain;
+    z-index: 6;
+}
+
+.coverup #smallStar{
+    position: absolute;
+    width: 20%;
+    height: 20vh;
+    left: 60%;
+    top: 35%;
+    object-fit: contain;
+    z-index: 6;
+}
+
+.container .text{
+    padding: 20px;
+    width: 75%;
+    background-color: black;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     color: beige;
+    left: 12%;
     top: 10%;
+    z-index: 5;
 }
 
 .text i{

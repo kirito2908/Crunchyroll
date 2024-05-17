@@ -3,12 +3,11 @@
     padding: 0;
 }
 
-html, body{
-    height: 100vh;
-}
-
 .navbar{
+    width: 100%;
     z-index: 100;
+    position: fixed;
+    font-family: Arial;
 }
 
 .top_header{
@@ -17,7 +16,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     background-color: #23252b;
-    color: #0a0a0c;
+    color: rgb(167, 167, 167);
     align-items: center;
     font-size: 16px;
     font-weight: 500;
