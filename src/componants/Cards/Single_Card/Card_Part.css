@@ -1,7 +1,6 @@
 .cardContainer{
     width: 100%;
     position: absolute;
-    z-index: 100;
     bottom: -53%;
     background-color: black;
 }
