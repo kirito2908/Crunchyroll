@@ -7,7 +7,7 @@
 .main_body{
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .main_body video{
@@ -22,7 +22,7 @@
 }
 
 .side_part {
-    position: relative;
+    position: absolute;
     /* display: block; */
     padding-top: 250px;
     width: 650px;
