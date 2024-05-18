@@ -1,0 +1,33 @@
+.AllCards{
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainDiv{
+    position: absolute;
+    background-color: black;
+    top: 155%;
+
+}
+
+.theContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 0 250px;
+}
+
+.theText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textContainer{
+    z-index: 100;
+    color: white;
+    font-size: 40px;
+}

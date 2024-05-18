@@ -1,11 +1,12 @@
+.container{
+    position: relative;
+}
+
 .second_main{
     position: absolute;
     display: flex;
     justify-content: center;
     width: 100%;
-    color: rgba(234,113,46,1);
-    left: 0%;
-    bottom: 0%;
     z-index: 1;
 }
 
@@ -14,7 +15,6 @@
     width: 100%;
     height: 50vh;
     object-fit: fill;
-    /* top: 50%; */
     background: linear-gradient(rgba(14, 15, 31, 0) 0%, rgba(14, 15, 31, 0) 100%);
     box-shadow: 10px 10px #0a0b20;
     z-index: 5;
@@ -35,15 +35,12 @@
     height: 35vh;
     z-index: 5;
     object-fit: cover;
-    top: 0%;
-    /* margin-top: 10px; */
 }
 
 .coverup video{
     position: absolute;
     width: 100%;
     height: 40vh;
-    right: 0%;
     bottom: -5%;
     z-index: 2;
     mix-blend-mode: lighten;
@@ -52,17 +49,15 @@
 .coverup #dustIMG{
     position: absolute;
     width: 100%;
-    left: 0%;
-    top: 7%;
     z-index: 4;
-    opacity: 20%;
+    opacity: 100%;
 }
 
 .coverup #largeStar{
     position: absolute;
     width: 20%;
     height: 20vh;
-    left: 45% ;
+    right: 40%;
     top: 30%;
     object-fit: contain;
     z-index: 6;
@@ -72,7 +67,7 @@
     position: absolute;
     width: 20%;
     height: 20vh;
-    left: 60%;
+    right: 25%;
     top: 30%;
     object-fit: contain;
     z-index: 6;
@@ -82,7 +77,6 @@
     padding: 20px;
     width: 75%;
     background-color: black;
-    position: absolute;
     margin-top: 15px;
     font-size: 11px;
     display: flex;
@@ -90,8 +84,6 @@
     justify-content: center;
     border-radius: 10px;
     color: beige;
-    left: 12%;
-    top: 10%;
     z-index: 5;
 }
 
@@ -99,21 +91,4 @@
     padding: 0 10px;
     color: rgba(234,113,46,1);
     font-size: 16px;
-}
-
-.textContainer{
-    width: 100%;
-    position: absolute;
-    display: flex;
-    bottom: -50%;
-    justify-content: center;
-}
-
-.winners {
-    color: white;
-    position: relative;
-    font-size: 35px;
-    font-weight: 400;
-    font-family: Arial;
-    z-index: 10;
 }

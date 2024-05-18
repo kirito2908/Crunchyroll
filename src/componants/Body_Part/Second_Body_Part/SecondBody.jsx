@@ -30,11 +30,6 @@ const SecondBody = () => {
 
         
       </div>
-      <div className="textContainer">
-      <div className="winners">
-          <h1>2024 Grand Winners</h1>
-        </div>
-      </div>
       
     </div>
   );

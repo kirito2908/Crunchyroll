@@ -8,6 +8,7 @@
     z-index: 100;
     position: fixed;
     font-family: Arial;
+    position: relative;
 }
 
 .top_header{

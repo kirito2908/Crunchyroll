@@ -22,20 +22,6 @@ export const TheCard = () => {
             </p>
           </div>
         </div>
-        <div className="singleCard">
-          <div className="nom">
-            <p>Best Animation</p>
-          </div>
-          <div className="poster">
-            <img src="/assets/Demon Slayer.webp" alt="Demon Slayer" />
-          </div>
-          <div className="title">
-            <p>Demon Slayer</p>
-            <p className="viewButton">
-              View <i class="ri-arrow-right-s-line"></i>
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

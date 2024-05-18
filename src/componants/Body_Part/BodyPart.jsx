@@ -6,6 +6,7 @@ export const BodyPart = () => {
   return (
     <>
       <div className="main_body" style={Body_Part}>
+        <div className="videoPlay">
         <video src="assets/aa24-bg-no-logo.mp4" preload='auto' autoPlay loop playsInline muted>
         </video>
         <div className="side_part">
@@ -15,6 +16,7 @@ export const BodyPart = () => {
           <button className="watchButton">
             <i class="ri-play-line"></i>
             Watch</button>
+        </div>
         </div>
         <SecondBody />
       </div>
