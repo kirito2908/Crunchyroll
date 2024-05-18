@@ -9,7 +9,8 @@
 }
 
 .singleCard{
-    width: 286px;
+    width: 300px;
+    padding: 20px 20px;
 }
 
 .poster img{
@@ -18,10 +19,32 @@
     object-fit: cover;
 }
 
-.nom p, .title p{
-    font-size: 20px;
-    display: flex;
+.nom p{
+    width: 100%;
+    display: block;
     justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.2s ease-in-out 0s;
+    color: rgb(230, 190, 153);
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    padding-bottom: 5px;
+}
+
+.title p{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: center;
+    transition: all 0.2s ease-in-out 0s;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .viewButton{
