@@ -59,13 +59,13 @@
     color: rgb(230, 190, 153);
 }
 
-.title:hover{
+.singleCard:hover{
     .titleName{
         visibility: hidden;
     }
 }
 
-.title:hover{
+.singleCard:hover{
     .viewButton{
         visibility: visible;
     }
