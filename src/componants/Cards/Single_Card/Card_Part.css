@@ -3,58 +3,70 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    /* bottom: -53%; */
     z-index: 100;
     background-color: black;
 }
 
 .singleCard{
     width: 300px;
-    padding: 20px 20px;
+    padding: 15px 20px;
+    background-color: black;
+    cursor: pointer;
 }
 
 .poster img{
     width: 100%;
     height: 434px;
     object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nom p{
     width: 100%;
+    height: 3rem;
     display: block;
-    justify-content: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
     transition: all 0.2s ease-in-out 0s;
     color: rgb(230, 190, 153);
     font-size: 1.125rem;
     line-height: 1.625rem;
-    padding-bottom: 5px;
+    text-align: center;
 }
 
-.title p{
+.title .titleName{
     width: 100%;
     display: block;
-    justify-content: center;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.5rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    justify-content: center;
-    transition: all 0.2s ease-in-out 0s;
     font-family: "Noto Sans", sans-serif;
 }
 
-.viewButton{
-    width: 100%;
-    justify-content: center;
-    position: absolute;
-    top: 5%;
-    visibility: hidden;
+.title{
+    text-align: center;
+    transition: all 0.2s ease-in-out 0s;
 }
 
-.viewButton:hover{
-    cursor: pointer;
+.title .viewButton{
+    width: 100%;
+    visibility: hidden;
+    color: white;
+    position: absolute;
+    top: 93.5%;
+    color: rgb(230, 190, 153);
+}
+
+.title:hover{
+    .titleName{
+        visibility: hidden;
+    }
+}
+
+.title:hover{
+    .viewButton{
+        visibility: visible;
+    }
 }

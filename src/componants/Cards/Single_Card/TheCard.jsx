@@ -13,7 +13,7 @@ export const TheCard = ({ titleName, image, name }) => {
             <img src={image} alt={name} />
           </div>
           <div className="title">
-            <p>{name}</p>
+            <p className="titleName">{name}</p>
             <p className="viewButton">
               View <i class="ri-arrow-right-s-line"></i>
             </p>

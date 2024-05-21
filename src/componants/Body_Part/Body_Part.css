@@ -12,7 +12,7 @@
 .main_body video{
     object-fit: fill;
     overflow-clip-margin: content-box;
-    height: 100vh;
+    height: 40%;
     width: 100%;
     z-index: 1;
 }
@@ -20,9 +20,9 @@
 .side_part {
     position: absolute;
     padding-top: 250px;
-    width: 650px;
-    top: 25%;
-    left: 10%;
+    width: 45%;
+    top: 8%;
+    left: 5%;
     z-index: 2;
 }
 
